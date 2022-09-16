@@ -1,0 +1,7 @@
+#filter online search
+#this example will replace all facebook search with "u have been hacked"
+if (ip.proto == TCP && search(DATA.data, "facebook") ) {
+   log(DATA.data, "/tmp/search_replace.log");
+   replace("facebook", "u+have+been+hacked");
+   msg("Correctly substituted and logged.\n");
+}
