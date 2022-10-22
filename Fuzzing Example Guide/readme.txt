@@ -7,5 +7,5 @@
 
 1_script.spk	-> Modelo de requisição de atualização obtido via Wireshark para usar no Spike
 2_script.spk 	-> Identificando formato de entrada maliciosa variando campos (Crash em If-Modified-Since)
-3_exploit.py	-> Script para enviar entrada maliciosa e confirmar disparo de erro
+3_fuzzing.py	-> Script para enviar entrada maliciosa e confirmar disparo de erro
 
